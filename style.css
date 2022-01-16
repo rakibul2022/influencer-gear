@@ -1,0 +1,50 @@
+.link-button{
+    color: black;
+    border-radius: 5px;
+    width: 10px;
+    height: 15px;
+    background-color: chocolate;
+    padding: 2px solid orange;
+}
+.influence{
+    display: flex;
+}
+.populer-text{
+    text-align: center;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    margin-left: 20px;
+}
+.callection-items img{
+     width:250px;
+     height: 300px;
+}
+.callection-info{
+    display: flex;
+    align-items: center;
+}
+.price{
+    font-size: 30px;
+}
+.fa-star{
+    font-size: 15px;
+}
+.fa-star.filled{
+    color:#FFC014
+}
+.fa-star.empty{
+    color:#AEAEAE
+}
+.influencer{
+    text-align: center;
+    background-color: chartreuse;
+}
+/* mobile Device */
+@media only screen and (max-width:688px) {
+    .influence{
+        background-color: orange;
+    }
+}
